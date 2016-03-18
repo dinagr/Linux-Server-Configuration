@@ -1,11 +1,12 @@
-# Linux server configuration
+## Linux server configuration
 
-## General
+### General
 
 You can connect to the server usong this IP - 52.35.54.206 and port 2200
+
 Here you can visit my app http://ec2-52-35-54-206.us-west-2.compute.amazonaws.com/
 
-### A summary of software installed and configuration changes made
+#### A summary of software installed and configuration changes made
 
 
 ###### 1.	Launch your Virtual Machine -
@@ -46,6 +47,8 @@ Here you can visit my app http://ec2-52-35-54-206.us-west-2.compute.amazonaws.co
 				5.	I copied the content of the file that was created on my coputer in step a (the file with the '.pub' ending) 
 					to the authorized_keys file and saved the changes
 				6.  I gave authorozations to the .ssh file 'chmod 700 .ssh' and to the authorized_keys file 'chmod 644 .ssh/authorized_	keys'
+
+			Now I can log in to the server using 'ssh grader@52.35.54.206 -p2200' and than enter the passphrase to log in
 
 ###### 6.	Change the SSH port from 22 to 2200 -
 
