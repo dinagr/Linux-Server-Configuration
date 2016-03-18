@@ -8,8 +8,8 @@ Here you can visit my app http://ec2-52-35-54-206.us-west-2.compute.amazonaws.co
 ### A summary of software installed and configuration changes made
 
 
-1.  Launch your Virtual Machine - 
-    Follow the instruction in the https://www.udacity.com/account#!/development_environment
+1. Launch your Virtual Machine - 
+   Follow the instruction in the https://www.udacity.com/account#!/development_environment
 2.  Follow the instructions provided to SSH into your server - 
 	'mv /home/.ssh/udacity_key.rsa ~/.ssh/udacity_key.rsa'
 3.  Create a new user named grader
